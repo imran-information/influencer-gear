@@ -1,0 +1,133 @@
+/* <--------------------font-------------------> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* <----------------Navbar----------------> */
+.navbar,
+ul {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    margin: 25px;
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* <--------------------section-------------------> */
+.conteinar {
+    margin: 150px;
+}
+
+.froducts {
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 50%;
+
+}
+
+.product-image {
+    margin-left: 150px;
+}
+
+.product h1 {
+    font-size: 58px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.froduct p {
+    font-size: 16px;
+    margin-bottom: 0px;
+
+}
+
+
+.product img {
+    width: 440px;
+    height: 414px;
+
+}
+
+/* <------------------------button ----------------> */
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+
+/* <---------------------horizontal laine--------------------> */
+hr {
+    width: 83%;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* <---------------------popular calection-------------------> */
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+    justify-items: center;
+}
+
+.calection-taitel {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.collection {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid snow;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 20px rgb(241, 216, 216);
+}
+
+.collection p {
+    text-align: justify;
+}
+
+/* <-------------------star icon style------------------> */
+.star-icon {
+    list-style: none;
+    color: orange;
+}
+
+/* <-----------------------Button-2 style----------------> */
+
+.collections a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 19px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+
+}
