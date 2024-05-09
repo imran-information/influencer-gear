@@ -131,3 +131,19 @@ hr {
     display: flex;
 
 }
+
+/* <---------------------Fecture products---------------------> */
+.fectured-products {
+    display: flex;
+}
+
+.fectured-image {
+    margin-left: 100px;
+    width: 40%;
+}
+
+.fectured-ditels {
+    width: 60%;
+    margin-top: 20px;
+    margin-right: 300px;
+}
