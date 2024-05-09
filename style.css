@@ -3,6 +3,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 /* <----------------Navbar----------------> */
@@ -13,6 +14,8 @@ ul {
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 100px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .navbar a {
@@ -78,6 +81,11 @@ ul {
 /* <---------------------horizontal laine--------------------> */
 hr {
     width: 83%;
+
+}
+
+.logos {
+    padding: 25px;
 }
 
 .logos {
@@ -146,4 +154,21 @@ hr {
     width: 60%;
     margin-top: 20px;
     margin-right: 300px;
+}
+
+/* <--------------------footer style---------------------> */
+footer {
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    margin-left: 30px;
 }
